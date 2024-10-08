@@ -1,0 +1,8 @@
+# 脚本简介
+感谢使用鼠子Java
+> 初来乍到，这是我写的第一个Java项目，第一次认识到了真正的Java。
+
+## 如有任何疑问请联系我：
+ - QQ：1778273540
+ - 博客：https://blog.miomoe.cn/
+ - Gitee & GitHub & BiliBili：ShuShuicu
