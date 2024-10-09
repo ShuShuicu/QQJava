@@ -1,9 +1,14 @@
 # 脚本简介
 欢迎使用！ 基于QStory的QQJava脚本。
 
+启用后发送 #菜单 查看使用指令
+
 > 初来乍到，这是我写的第一个Java项目，第一次认识到了真正的Java。
 
 ## 更新日志
+#### 1.0.2
+ - 优化点赞
+
 #### 1.0.1
 - 支持WordPress文章推送&搜索
 >（在 .\鼠子Java\inc\functions\wp-post.java 修改站点URL）
