@@ -1,5 +1,7 @@
 /**
  * AI回复
+ * @Author：鼠子(ShuShuicu)
+ * @Link: https://blog.miomoe.cn/
  */
 public String get(String url)
 {
@@ -37,6 +39,7 @@ public String get(String url)
     buffer.delete(buffer.length()-1,buffer.length());
     return buffer.toString();
 }
+
 AddItem("AI回复/开关","aiOpen");
 public void aiOpen(String group) {
     if ("1".equals(getString(group, "是否开启"))) {
@@ -47,6 +50,7 @@ public void aiOpen(String group) {
         Toast("AI开启");
     }
 }
+
 public void onMsg(Object msg) {
     String text = msg.MessageContent;
     String qq = msg.msg.peerUin+"";
@@ -55,28 +59,13 @@ public void onMsg(Object msg) {
     String content = msg.MessageContent;
 
 
-    if("1".equals(getString(qun, "是否开启"))){
-
-
+    if("1".equals(getString(qun, "是否开启"))) {
         if (content.startsWith("#AI")) {
-            String url = get("http://api.qingyunke.com/api.php?key=free&appid=0&msg="+ content.substring(4).trim());
+            String url = get("http://api.qingyunke.com/api.php?key=free&appid=0&msg=" + content.substring(4).trim());
             if (msg.IsGroup) {
-                sendMsg(qun,"",url);
-            }else{
-                sendMsg("",qq,url2);
-            }
-        }
-
-
-    }
-    if("1".equals(getString(qq,"是否开启"))) {
-        if(msg.UserUin.equals(MyUin))                       return;
-        if (content.startsWith("")) {
-            String url = get("http://api.qingyunke.com/api.php?key=free&appid=0&msg="+ content.substring(1).trim());
-            if (msg.IsGroup) {
-                sendMsg(qun,"",url2);
-            }else{
-                sendMsg("",qq,url);
+                sendMsg(qun, "", url);
+            } else {
+                sendMsg("", qq, url);
             }
         }
     }

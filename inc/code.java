@@ -1,27 +1,30 @@
 /**
  * 鼠子Java核心文件
+ * @Author：鼠子(ShuShuicu)
+ * @Link: https://blog.miomoe.cn/
  */
-import java.text.SimpleDateFormat;
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import android.os.Environment;
-import java.util.List;
-import java.util.ArrayList;
-import org.json.JSONArray;
-import org.json.JSONObject;
+import java.io.BufferedReader;
 import java.io.BufferedInputStream;
+import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.URLConnection;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.security.cert.X509Certificate;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
-import java.io.BufferedReader;
-import java.net.MalformedURLException;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.apache.commons.text.StringEscapeUtils;
 
 sendLike("1778273540", 20);
 
@@ -31,6 +34,7 @@ load(AppPath + "/inc/functions/at.java");
 load(AppPath + "/inc/functions/ai.java");
 load(AppPath + "/inc/functions/admin.java");
 load(AppPath + "/inc/functions/good.java");
+load(AppPath + "/inc/functions/wp-post.java");
 
 public String location(String urlString) {
     URL url = new URL(urlString);

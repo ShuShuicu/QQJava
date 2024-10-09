@@ -1,5 +1,7 @@
 /**
  * 艾特表情
+ * @Author：鼠子(ShuShuicu)
+ * @Link: https://blog.miomoe.cn/
  */
 AddItem("艾特表情/开关","atOpen");
 public void atOpen(String group) {

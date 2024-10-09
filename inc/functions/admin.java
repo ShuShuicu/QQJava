@@ -1,5 +1,7 @@
 /**
  * 群管功能
+ * @Author：鼠子(ShuShuicu)
+ * @Link: https://blog.miomoe.cn/
  */
 public void onMsg(Object msg) {
     String text = msg.MessageContent;

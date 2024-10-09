@@ -1,5 +1,7 @@
 /**
  * 赞我功能
+ * @Author：鼠子(ShuShuicu)
+ * @Link: https://blog.miomoe.cn/
  */
 
 //下面都为空不会发送任何内容(无声点赞)

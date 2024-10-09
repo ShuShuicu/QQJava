@@ -2,7 +2,14 @@
 感谢使用鼠子Java
 > 初来乍到，这是我写的第一个Java项目，第一次认识到了真正的Java。
 
-## 如有任何疑问请联系我：
+## 脚本特色
+ - 赞我
+ - 禁言
+ - 艾特表情
+ - AI小模型回复
+ - 支持WordPress文章推送&搜索
+
+### 如有任何疑问请联系我：
  - QQ：1778273540
  - 博客：https://blog.miomoe.cn/
  - Gitee & GitHub & BiliBili：ShuShuicu
